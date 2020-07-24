@@ -20,4 +20,5 @@ public class LogController {
     public void postLog(@RequestBody Log log) {
         logService.postLog(log);
     }
+
 }
